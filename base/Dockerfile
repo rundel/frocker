@@ -34,7 +34,7 @@ RUN echo "options(repos = c(CRAN = 'https://cran.rstudio.com/'), download.file.m
   && ln -s /usr/local/lib/R/site-library/littler/examples/installGithub.r /usr/local/bin/installGithub.r \
   && ln -s /usr/local/lib/R/site-library/littler/bin/r /usr/local/bin/r \
   ## Core Packages
-  && install2.r remotes RhpcBLASctl \
+  && install2.r remotes RhpcBLASctl furrr \
   ## Clean up from R source install
   && cd /
   
