@@ -1,4 +1,4 @@
-all: r tidyverse geospatial
+all: r tidyverse geospatial bayes
 
 base: .PHONY
 	make -C base/ latest 
